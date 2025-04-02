@@ -1,0 +1,94 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+
+}
+.logocont{
+    height: 10vh;
+    width: 10vw;
+    background-color: rgb(38, 25, 7);
+}
+.each img{
+    height: 3vh;
+    width: 4vh;
+    object-fit: contain;
+    object-position: center;
+    
+}
+.options{
+    height: 80vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+}
+.each{
+    height: 5vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.link{
+    height: 5vh;
+    width: 15vw;    
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.bname{
+    height: 5vh;
+    width: 100%;
+
+}
+.boxes{
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.allboxes{
+    height: 70vh;
+    width: 60vw;
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.sidename{
+    height: 5vh;
+    width: 100%;
+
+}
+.each-box{
+    height: 25vh;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: aqua;
+    padding-left: 8px;
+}
+.each-cont{
+    height: 25vh;
+    width: 19.5vw;
+    background-color: aliceblue;
+    border-radius: 0 10px 10px 0px ;
+    
+}
+.box-side{
+    height: 70vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.announ{
+    height: 30vh;
+    width: 15vw;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
