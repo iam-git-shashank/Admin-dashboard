@@ -5,8 +5,19 @@
 }
 .logocont{
     height: 10vh;
-    width: 10vw;
-    background-color: rgb(38, 25, 7);
+    width: 15vw;
+    display: flex;
+    align-items: center;
+}
+.logocont .each{
+    font-size: 1.3em;
+    font-weight: 600;
+    
+}
+.logocont .each img{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
 }
 .each img{
     height: 3vh;
@@ -54,11 +65,10 @@
 .allboxes{
     height: 70vh;
     width: 60vw;
-    background-color: brown;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 .sidename{
     height: 5vh;
@@ -69,26 +79,73 @@
     height: 25vh;
     width: 20vw;
     border-radius: 10px;
-    background-color: aqua;
     padding-left: 8px;
+    margin: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: yellow;
 }
 .each-cont{
     height: 25vh;
     width: 19.5vw;
-    background-color: aliceblue;
     border-radius: 0 10px 10px 0px ;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: white;
     
+}
+.box-logos{
+    height: 5vh;
+    margin-left: auto;
+  width: 10vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .box-side{
     height: 70vh;
     width: 20vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+.sidename{
+    font-size: 1.1em;
+    font-weight: 700;
 }
 .announ{
     height: 30vh;
     width: 15vw;
     border-radius: 10px;
     background-color: aliceblue;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.announ .box-info{
+    font-size: 0.7em;
+    border-bottom: 1px rgb(233, 230, 230) solid;
+}
+.box-info h5{
+    font-size: 1.1em;
+}
+.box-info p{
+    font-size: 0.8em;
+}
+.box-logos .opt img{
+    height: 3vh;
+    width: 3vh;
+    
+
+}
+.announ .headleft{
+    height: 5vh;
+    width: 12vw;
+    font-size: 0.6em;
+}
+.announ .headleft img{
+    height: 5vh;
+    width: 5vh;
+   
 }
